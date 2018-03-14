@@ -17,6 +17,7 @@
       <div class="item">
         <div class="name">Electron:</div>
         <div class="value">{{ electron }}</div>
+        <router-link :to="{path:'/about'}">哈哈哈哈</router-link>
       </div>
       <div class="item">
         <div class="name">Node:</div>
