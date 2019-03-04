@@ -42,6 +42,9 @@
         platform: require('os').platform(),
         vue: require('vue/package.json').version
       }
+    },
+    created:() => {
+      // console.log(process)
     }
   }
 </script>
